@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Necrons/TrazynDiffuse"/>
+		<texture name="Units/Necrons/TrazynNormal"/>
+		<texture name="Units/Necrons/TrazynSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

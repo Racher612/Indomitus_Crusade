@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Attributes/Morale" rankMax="2">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<effects>
+				<hitpoints addMin="1" addMax="2"/>
+				<feelNoPainDamageReduction addMin="0.25" addMax="0.75"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

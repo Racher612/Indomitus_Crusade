@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff" rankMax="2" icon="Traits/DistortScythe">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<enemy/>
+				</unit>
+			</conditions>
+			<effects>
+				<armor addMin="-1" addMax="-3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

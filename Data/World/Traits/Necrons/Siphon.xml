@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/Necrons/Siphon">
+	<modifiers>
+		<modifier>
+			<effects>
+				<energy addMin="20" addMax="60"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

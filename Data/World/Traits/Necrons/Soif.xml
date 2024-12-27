@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Traits/Tyranids/FeederBeast">
+	<modifiers>
+		<modifier>
+			<effects>
+				<lifeStealFactor addMin="0.20" addMax="0.60"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

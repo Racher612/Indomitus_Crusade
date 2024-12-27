@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/StaffofTomorrow">
+	<onCombatOpponentModifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<overwatching/>
+				</unit>
+			</conditions>
+			<effects>
+				<addTrait duration="1" name="Stunned"/>
+			</effects>
+		</modifier>
+	</onCombatOpponentModifiers>
+</trait>

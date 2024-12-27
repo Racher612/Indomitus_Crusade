@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="GaussDestructorHighPower" value="Destructeur Gauss"/>
+	<entry name="GaussDestructorHighPowerFlavor" value="Un Destructeur Gauss est un type d'arme Gauss lourde utilisée par les Destroyers Lourds Necron Lokhust. Il est capable de décimer ses ennemis à distance. L'arme est plus puissante si l'unité ne s'est pas déplacée."/>
+	<entry name="GaussDestructorLowPower" value="Destructeur Gauss"/>
+	<entry name="GaussDestructorLowPowerFlavor" value="Un Destructeur Gauss est un type d'arme Gauss lourde utilisée par les Destroyers Lourds Necron Lokhust. Il est capable de décimer ses ennemis à distance. L'arme est moins puissante si l'unité s'est déplacée."/>
+	<entry name="GaussDestructorMax" value="Destructeur Gauss surcadençé"/>
+	<entry name="GaussDestructorMaxFlavor" value="<string name='Actions/Necrons/GaussDestructorMax'/>"/>
+	<entry name="GaussObliterator" value="Oblitérateur Gauss"/>
+	<entry name="GaussObliteratorFlavor" value="Un Oblitérateur Gauss est une arme Nécron dévastatrice utilisée exclusivement par les Monolithes du jugement dernier. L'Oblitérateur fonctionne comme une version plus puissante du Fouet à Particules du Monolithe Nécron. La quantité folle d'énergie nécessaire au tir de l'Oblitérateur est alimentée directement par la matrice de puissance du Monolithe du jugement dernier."/>
+	<entry name="EmpathicObliterator" value="Oblitérateur Empathique"/>
+	<entry name="EmpathicObliteratorFlavor" value="L’exacte provenance de ce sceptre étrange est inconnue de tous sauf de Trazyn, mais on prétend qu’il renferme une technologie conçue par la race éteinte des Anciens. Lorsque l’Oblitérateur Empathique fauche un ennemi, une onde psionique s’échappe de sa victime pour frapper les créatures similaires alentour. Cette arme convient parfaitement à Trazyn, qui dédaigne les combats intenses, leur préférant de loin un unique coup porté au moment opportun."/>
+	<entry name="StaffofTomorrow" value="Bâton d’Anachronie"/>
+	<entry name="StaffofTomorrowFlavor" value="Ce bâton de lumière unique est porté par le cryptek Orikan le Devin. Il est plus puissant et plus mortel que ses homologues ordinaires. Le Bâton d’Anachronie peut également pénétrer toutes les formes connues d'armures d'infanterie, de la même manière qu'une arme énergétique, ce qui renforce encore son effet dévastateur."/>
+</language>

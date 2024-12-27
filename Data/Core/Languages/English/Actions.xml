@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+
+	<!-- necrons heroes of legends mod -->
+
+	<entry name="Necrons/GaussDestructorMax" value="Gauss Annihilation"/>
+	<entry name="Necrons/GaussDestructorMaxDescription" value="The Heavy Destroyer Lord can now overload his weapon to be much more lethal."/>
+	<entry name="Necrons/GaussDestructorMaxFlavor" value="The Gauss Destructor is already a terribly dangerous weapon, but when the Heavy Destroyer Lord decides to allocate more energy to it, this weapon becomes a machine of mass destruction. The weapon is so powerful that it inflicts damage on its wielder. Its range and armor penetration are unrivaled."/>
+	<entry name="Necrons/DestroyerCall" value="Destroyers Awakening"/>
+	<entry name="Necrons/DestroyerCallDescription" value="Summon a Destroyer squad."/>
+	<entry name="Necrons/DestroyerCallFlavor" value="If the Heavy Destroyer Lord has enough influence with his dynasty, he may request reinforcement teleportation to his position. In general, he will always summon destroyers to increase his already incredible destructive potential."/>
+	<entry name="Necrons/Destroyer" value="Aura of Destruction"/>
+	<entry name="Necrons/DestroyerDescription" value="Increases the accuracy of adjacent Destroyers."/>
+	<entry name="Necrons/DestroyerFlavor" value="The Heavy Destroyer Lord guides his peers with inhuman lethality. These followers of organized destruction become more effective when they receive their orders directly from their Lord."/>
+	<entry name="Necrons/Hainevivant" value="Protocols for destruction of living"/>
+	<entry name="Necrons/HainevivantDescription" value="The Heavy Destroyer Lord is more effective against biological targets, but less against mechanical or inert targets."/>
+	<entry name="Necrons/HainevivantFlavor" value="Already formidable, the Heavy Destroyer Lord decided to focus on biological targets to significantly increase its effectiveness. It therefore becomes much more dangerous against all targets that are not vehicles, fortifications, Necrons or cyborgs. This protocol is incompatible with the destruction of the inert."/>
+	<entry name="Necrons/Haineinerte" value="Protocols for destruction of the inert"/>
+	<entry name="Necrons/HaineinerteDescription" value="The Heavy Destroyer Lord is more effective against mechanical targets, but less against biological targets."/>
+	<entry name="Necrons/HaineinerteFlavor" value="Already formidable, the Heavy Destroyer Lord decided to focus on mechanical targets to significantly increase its effectiveness. It therefore becomes much more dangerous against all targets such as vehicles, fortifications, Necrons or cyborgs. This protocol is incompatible with that of the destruction of the living."/>
+	<entry name="Necrons/Flayerisme" value="Curse of Llandu'gor"/>
+	<entry name="Necrons/FlayerismeDescription" value="The infected Canoptek Spyder transforms targeted damaged Necron infantry into Flayed Ones."/>
+	<entry name="Necrons/FlayerismeFlavor" value="It is said that when the Necrons turned against the C'tan during the final hours of the War in Heaven, Llandu'gor the Flayer was not pulverized into thousands of fragments like his brothers, but completely annihilated. However, during his agony, he had time to utter a terrible curse against his servants who had betrayed him, thus defiling them with his unquenchable bloodlust. And this scourge can continue to spread."/>
+	<entry name="Necrons/Scarabsoin" value="Galvanization of living metal"/>
+	<entry name="Necrons/ScarabsoinDescription" value="These infected Canoptek Scarabs can sacrifice themselves to heal damaged Necron units."/>
+	<entry name="Necrons/ScarabsoinFlavor" value="Despite their infection, these Scarabs have the same protocols as their normal counterparts and can therefore easily assist in the regeneration of living metal. However, in the process, infected scarabs are destroyed and cannot be used again."/>
+	<entry name="Necrons/Nuée" value="Blood Swarm"/>
+	<entry name="Necrons/NuéeDescription" value="The infected Canoptek Spyder releases a large swarm of infected Canopteks Scarabs with multiple uses."/>
+	<entry name="Necrons/NuéeFlavor" value="Much like the infected Canoptek Spyder, these Canoptek Scarabs are infected with the Flayer virus and will eagerly seek to kill the enemy. Despite this behavior, these Scarabs can also sacrifice themselves to repair damaged Necron units or increase the lethality of Flayed Ones."/>
+	<entry name="Necrons/Siphon" value="Energy Drain"/>
+	<entry name="Necrons/SiphonDescription" value="The infected Canoptek Spyder stuns an enemy vehicle to drain energy."/>
+	<entry name="Necrons/SiphonFlavor" value="Although rare, it is possible that Canoptek Spyder can drain electrical power from vehicles or buildings. In general it is often to stop a debacle by finding the energy necessary to relieve the destroyed Necron troops. But the infected Mecarachnid does not hesitate to plant its numerous claws in the metal of its victim to drain the energy, leaving the vehicle empty and vulnerable."/>
+	<entry name="Necrons/Corruption" value="Machine corruption"/>
+	<entry name="Necrons/CorruptionDescription" value="The infected Canoptek Spyder spreads corrupted code that reduces the accuracy of enemy vehicles and increases their morale loss."/>
+	<entry name="Necrons/CorruptionFlavor" value="The Necrons have technology beyond comprehension and many species have tried to unlock their secrets, but in vain. The slightest synthetic or mechanical entity fears the technologies that the Necrons can deploy on the battlefield. Because when corrupted Necron code is released, vehicles and cyborgs quickly suffer damages or hallucinations. Leaving crews and troops to contend with machines that are going completely crazy."/>
+	<entry name="Necrons/Soif" value="Blood Lust"/>
+	<entry name="Necrons/SoifDescription" value="The infected Canoptek Spyder heals itself when she deals damage."/>
+	<entry name="Necrons/SoifFlavor" value="The final transformation that would allow a Flayed Ones to quench his thirst never occurs, lending credence to the legend that the curse was the final gift of one of the C'tan: Llandu'gor, the Flayer. For this Canoptek Spider corrupted by the virus, it is indeed this same hunger which guides its senses."/>
+	<entry name="Necrons/Enragement" value="Fury of the Flayed Ones"/>
+	<entry name="Necrons/EnragementDescription" value="Infected Scarab Canopteks can sacrifice themselves to increase attack, movement, damages and grant life theft to the targeted Flayed Ones squad."/>
+	<entry name="Necrons/EnragementFlavor" value="Scarabs corrupted by the virus can easily arouse the senses of Flayed Ones. By uniting with them like parasites, they gain in speed, aggressiveness and lethality."/>
+	<entry name="Necrons/Monolithium" value="Energy Grid"/>
+	<entry name="Necrons/MonolithiumDescription" value="The Doomsday Monolith drains energy from a Monolith, which deactivates, to increase the power of its weaponry."/>
+	<entry name="Necrons/MonolithiumFlavor" value="Instead of firing a particle whip, or teleporting a unit, nearby Monoliths can grant the energy from their Power Matrix to the Doomsday Monolith, which is capable of focusing this power to increase the intensity of its Gauss Obliterator."/>
+	<entry name="Necrons/PSG" value="Phase Shift Generator"/>
+	<entry name="Necrons/PSGDescription" value="The Doomsday Monolith reduces damage taken by nearby units."/>
+	<entry name="Necrons/PSGFlavor" value="A Phase Shift Generator is a device found on Necron Pylons. It is presumably similar to the Wraith's phase shift ability but on a much greater scale. The field projected by the Pylon surrounds it for a great distance and allows Necrons within the field to survive attacks which would normally destroy them outright."/>
+	<entry name="Necrons/MonolithDrain" value="Energy drain"/>
+	<entry name="Necrons/MonolithDrainDescription" value="The Doomsday Monolith drains energy from a Monolith, which will take damage, to regenerate its integrity."/>
+	<entry name="Necrons/MonolithDrainFlavor" value="Instead of using their weaponry or teleporting a unit, nearby monoliths can attune the energy of their power matrix to the Doomsday Monolith, which is able to concentrate this power to significantly increase the repairing speed of the living metal."/>
+	<entry name="Necrons/Phase" value="Phase Teleport"/>
+	<entry name="Necrons/PhaseDescription" value="The Doomsday Monolith teleports and becomes resistant to ranged attacks."/>
+	<entry name="Necrons/PhaseFlavor" value="Necron knowledge and technologies related to the art of controlling time and matter remain unmatched to this day. What seems impossible for other species remains simple for the Necrons, who can teleport their Monoliths over great distances and despite their imposing mass. Worse, as the Monolith resurfaces at the desired position it is almost impossible to deal any damage to it as it finishes its phase. Like a spectral pyramid, it is visible to all but also intangible."/>
+	<entry name="Necrons/Eveil" value="Phase Portal"/>
+	<entry name="Necrons/EveilDescription" value="The Doomsday Monolith quickly summons warriors to the battlefield."/>
+	<entry name="Necrons/EveilFlavor" value="The power of the Doomsday Monolith portal far exceeds those of common Monoliths. Thus, the Doomsday Monolith can summon Necron warriors and teleport them a great distance. Ideal for flanking or catching up an enemy but also for reaching entrenched positions."/>
+	<entry name="Necrons/GaussObliterator" value="Full power strike"/>
+	<entry name="Necrons/GaussObliteratorDescription" value="The Doomsday Monolith deals serious area damage, pulverizing enemies and pinning infantry to the ground."/>
+	<entry name="Necrons/GaussObliteratorFlavor" value="The Doomsday Monolith can charge the power of its Gauss Obliterator to release a powerful blast that will sweep across a large area of ​​the battlefield. The vehicles may be spared but the infantry, at least for the survivors, will be scattered around the area. The impact hits the ground with such force that the shockwave will pulverize entire armies."/>
+	<entry name="Necrons/Contrôle" value="Take over"/>
+	<entry name="Necrons/ContrôleDescription" value="The Void Dragon's C'tan Shard temporarily controls the targeted vehicle."/>
+	<entry name="Necrons/ContrôleFlavor" value="The Void Dragon's C'tan Shard technological affinity allows him to easily turn vehicles against their owner, he manages to animate them so that they serve his will. The effect does not last but apart from defeating the shard, nothing will be able to free the vehicle from its terrible torpor."/>
+	<entry name="Necrons/Deathgaze" value="Gaze of Death"/>
+	<entry name="Necrons/DeathgazeDescription" value="The Void Dragon's C'tan Shard drains health from all nearby non-vehicle enemies."/>
+	<entry name="Necrons/DeathgazeFlavor" value="The C'tan Shard's eyes burn with black energy and drain the life force of all creatures nearby. He siphons the vital energy of the living as if it were a great nectar, this vital energy allows him to increase the regeneration of his C'tan shard necroderm."/>
+	<entry name="Necrons/Cosmicinsanity" value="Cosmic Insanity"/>
+	<entry name="Necrons/CosmicinsanityDescription" value="The Void Dragon's C'tan Shard terrorizes an area around him."/>
+	<entry name="Necrons/CosmicinsanityFlavor" value="The C'tan Shard uses it powers to flood his victims' minds with vast and terrible cosmic truths, overwhelming even the most ironclad minds and driving them instantly and irrevocably insane."/>
+	<entry name="Necrons/PartSpiri" value="Cloud of Spiritual Particles"/>
+	<entry name="Necrons/PartSpiriDescription" value="The Void Dragon's C'tan Shard becomes harder to hit."/>
+	<entry name="Necrons/PartSpiriFlavor" value="Covered in this cloud, the projectiles will pass through the Void Dragon's C'tan Shard as if nothing had happened. This vaporous form will not last but will allow the splinter to get out of a bad situation to recover before "/>
+	<entry name="Necrons/Moléculaire" value="Molecular Destabilization"/>
+	<entry name="Necrons/MoléculaireDescription" value="The Void Dragon's C'tan Shard reduces the armor of nearby enemies."/>
+	<entry name="Necrons/MoléculaireFlavor" value="The Void Dragon Shard filled the air around it with a distorted, stinging sound. With a single gesture, he can undo the war machines of the lower races, then attract disintegrated matter to herself like black holes in order to reconstitute their constantly fluctuating envelope. Complete control of matter allows him to disassemble the strongest materials with a single thought."/>
+	<entry name="Necrons/VoltaicStorm" value="Voltaic Storm"/>
+	<entry name="Necrons/VoltaicStormDescription" value="The Void Dragon's C'tan Shard gains additional attacks for his transdimensional thunderbolts."/>
+	<entry name="Necrons/VoltaicStormFlavor" value="When this C'tan points one imperious hand, foes reel as the air sings with a monstrous whine. The awful sound builds, then erupts into a sudden and ferocious storm of emerald lightning to annihilate all it touches."/>
+	<entry name="Necrons/SurrogateHosts" value="Surrogate Hosts"/>
+	<entry name="Necrons/SurrogateHostsDescription" value="Trazyn may come back to life frequently."/>
+	<entry name="Necrons/SurrogateHostsFlavor" value="Trazyn has a habit of carrying out his campaigns through a substitute body in which he implants his will. If he suffers too serious damage, his essence returns to its authentic envelope or even to that of another puppet. Not all Trazyn substitutes are identifiable as such. Indeed, many of them are in fact Dynasts or Overlords whose bodies are, unbeknownst to them, under the domination of Trazyn. Taking control of such an envelope is easy for him: his will supplants that of the host whose body transmutes into an exact replica of Trazyn's. Thus protected from the dangers of a perilous galaxy, Trazyn can go where his passion guides him."/>
+	<entry name="Necrons/Contrôlemental" value="Mindshackle Scarabs"/>
+	<entry name="Necrons/ContrôlementalDescription" value="Trazyn takes control of a biological being for a limited time."/>
+	<entry name="Necrons/ContrôlementalFlavor" value="Mindshackle Scarabs are one of the Necrons' chief methods of controlling alien races. At the bearer's command, tiny scarabs bury into the victim's mind and bypass cerebral functions, turning the victim into little more than a puppet under the control of the scarabs' master."/>
+	<entry name="Necrons/Monexperience" value="Preservation of the past"/>
+	<entry name="Necrons/MonexperienceDescription" value="Trazyn grants experience to nearby allied units at the expense of their morale."/>
+	<entry name="Necrons/MonexperienceFlavor" value="We must not let the relics of antiquity be broken and crushed by the savagery of unenlightened creatures, for only by understanding these treasures may we conquer the future. Only we, who have broken free from the shackles of mortality and bound the infinite majesty of the cosmos to our will, can be trusted with this task. That is why we are here, on this wretched pit of a planet. Eliminate these mortals as you see fit, but do try to keep the collateral damage to a minimum. — Trazyn the Infinite"/>
+	<entry name="Necrons/EmpathicObliterator" value="Psionic Strike"/>
+	<entry name="Necrons/EmpathicObliteratorDescription" value="Trazyn performs a powerful attack that stuns his target and weakens nearby targets."/>
+	<entry name="Necrons/EmpathicObliteratorFlavor" value="Should the Empathic Obliterator slay an enemy, a psionic shockwave ripples out from the body of the victim, striking down all nearby creatures of similar mind and purpose."/>
+	<entry name="Necrons/Musée" value="My collection is incomplete"/>
+	<entry name="Necrons/MuséeDescription" value="Trazyn can capture targets more often and generates more influence."/>
+	<entry name="Necrons/MuséeFlavor" value="I realize you've been wandering my galleries, and the fact that you were able to identify in such a short time that three regiments of Catachan soldiers were still missing from my Acabrius War collection speaks to your eye for this genre. thing. But from there to send me five complete regiments ! Such generosity will allow me to eliminate and replace a few less valuable pieces in my collection. — Hyperparchment from Trazyn the Infinite to Inquisitor Valéria"/>
+	<entry name="Necrons/Musée1" value="Unit Capture"/>
+	<entry name="Necrons/Musée1Description" value="Trazyn captures and ships his weakened new catch off-planet, generating a bit of influence."/>
+	<entry name="Necrons/Musée1Flavor" value="The Prismatic Galleries. These are some of the most prized possessions of Trazyn and consist of holographic events recapturing events from history deemed worthy of preservation. These galleries are not populated by mere sculpture, but by conscious living beings transmuted into the holograph themselves."/>
+	<entry name="Necrons/Musée2" value="Vehicle Capture"/>
+	<entry name="Necrons/Musée2Description" value="Trazyn captures and ships his weakened new catch off-planet, generating influence."/>
+	<entry name="Necrons/Musée2Flavor" value="The Prismatic Galleries. These are some of the most prized possessions of Trazyn and consist of holographic events recapturing events from history deemed worthy of preservation. These galleries are not populated by mere sculpture, but by conscious living beings transmuted into the holograph themselves."/>
+	<entry name="Necrons/Musée3" value="Hero Capture"/>
+	<entry name="Necrons/Musée3Description" value="Trazyn captures and ships his weakened new catch off-planet, generating a lot of influence."/>
+	<entry name="Necrons/Musée3Flavor" value="The Prismatic Galleries. These are some of the most prized possessions of Trazyn and consist of holographic events recapturing events from history deemed worthy of preservation. These galleries are not populated by mere sculpture, but by conscious living beings transmuted into the holograph themselves."/>
+	<entry name="Necrons/PhaseShifter" value="Phase Shifter"/>
+	<entry name="Necrons/PhaseShifterDescription" value="Orikan gains ranged damage reduction."/>
+	<entry name="Necrons/PhaseShifterFlavor" value="A Phase Shifter is a form of Necron phase technology that truly demonstrates that species' technological superiority over all others in the galaxy. Using a form of unknown inter-dimensional science, a Phase Shifter renders its bearer's form hazy and indistinct, as though he was not completely corporeal. Shots and blows can then pass through the user's mechanical necrodermis body, meaning that even the most powerful weapons cannot harm him."/>
+	<entry name="Necrons/TemporalSnare" value="Temporal Snare"/>
+	<entry name="Necrons/TemporalSnareDescription" value="Orikan slow down a target that deal less attacks, suffer more damages and move one tile only."/>
+	<entry name="Necrons/TemporalSnareFlavor" value="A Temporal Snare is a Necron device that warps the fabric of space-time itself, creating a bubble of altered space-time where time flows more slowly for anyone or anything trapped within it. They are only carried by the Cryptek Orikan. Each Temporal Snare is a technologically-advanced temporal trap that can severely impede enemy movement once it is activated, whether those trapped within its field are vehicles or infantry. Thus, even when traversing the smoothest of terrains, once a snare is activated, enemy units can still find themselves moving at a snail's pace from the subjective perception of those observers outside the device's range of effect."/>
+	<entry name="Necrons/StarsAreRight" value="Stars Are Right"/>
+	<entry name="Necrons/StarsAreRightDescription" value="Orikan becomes more powerful and gains attacks, damages, movement and accuracy for a limited time."/>
+	<entry name="Necrons/StarsAreRightFlavor" value="Wherever he goes, whenever he fights, there is always a chance that the stars will come into alignment and restore to Orikan a portion of ancient power. Whenever this happens, the body of Orikan coruscates with pent-up energy, and his prowess on the battlefield increases tenfold. However, such correct celestial alignments are often fleeting, and Orikan eventually powers down, sometimes mere minutes after he first received his initial empowerment."/>
+	<entry name="Necrons/StarsAreRight" value="Stars Are Not Right"/>
+	<entry name="Necrons/StarsAreRightDescription" value="Orikan becomes weak and deals less attacks, damage, accuracy and movement for a limited time."/>
+	<entry name="Necrons/StarsAreRightFlavor" value="Wherever he goes, whenever he fights, there is always a chance that the stars will come into alignment and restore to Orikan a portion of ancient power. Whenever this happens, the body of Orikan coruscates with pent-up energy, and his prowess on the battlefield increases tenfold. However, such correct celestial alignments are often fleeting, and Orikan eventually powers down, sometimes mere minutes after he first received his initial empowerment."/>
+	<entry name="Necrons/SolarStrike" value="Solar Strike"/>
+	<entry name="Necrons/SolarStrikeDescription" value="Orikan becomes a beacon of pure light that blind and annihilate the area."/>
+	
+	<!-- Venerable Dreadnought mode -->
+	
+	<entry name="Necrons/SolarStrikeFlavor" value="Orikan takes great care to keep his machinations hidden from his peers. A thousand millennia of planning and preparation are about to come to fruition. Once the stars are in proper alignment, Orikan will finally embrace his true destiny, his physical form will become a vessel for celestial energies and transform him into a being of terrible power. The temporal traps he has set throughout the galaxy will activate and Orikan will manipulate time itself to his advantage. Orikan sees the future of the Necron race as transforming into beings of pure energy as opposed to regaining their organic forms."/>
+	<entry name="SpaceMarines/WisdomOfTheAncients" value="Wisdom Of The Ancients"/>
+	<entry name="SpaceMarines/WisdomOfTheAncientsDescription" value="Buffs adjacent units accuracy and attacks."/>
+	<entry name="SpaceMarines/WisdomOfTheAncientsFlavor" value="Each fallen champion who rests within the sarcophagus of a Dreadnought has seen a thousand battles and slain foes beyond counting. All such noble warriors are immensely inspiring to their battle-brothers."/>
+	<entry name="SpaceMarines/UnyeildingAncient" value="Unyielding Ancient"/>
+	<entry name="SpaceMarines/UnyeildingAncientDescription" value="Grants damage reduction and slow passive regen per turn."/>
+	<entry name="SpaceMarines/UnyeildingAncientFlavor" value="Incoming fire spatters like rain off his towering adamantium and ceramite hull."/>
+	<entry name="SpaceMarines/DutyEternal" value="Duty Eternal"/>
+	<entry name="SpaceMarines/DutyEternalDescription" value="Grants damage reduction for a single turn."/>
+	<entry name="SpaceMarines/DutyEternalFlavor" value="Having teasted death before, the pilot of each Dreadnought is determined to do his duty before his end finally comes."/>
+	<entry name="SpaceMarines/WeaponsPlatform" value="Weapons Platform"/>
+	<entry name="SpaceMarines/WeaponsPlatformDescription" value="Grants extra inventory slots."/>
+	<entry name="SpaceMarines/WeaponsPlatformFlavor" value="Dreadnoughts are war incarnate, towering machines that advance forwards with thunderous strides, fiery death roaring from the myriad of heavy weapons mounted on their hulls."/>
+	<entry name="SpaceMarines/FoundingMember" value="Founding Member"/>
+	<entry name="SpaceMarines/FoundingMemberDescription" value="Shares knowledge with adjacent units and the Chapter, boosting level and research rate."/>
+	<entry name="SpaceMarines/FoundingMemberFlavor" value="The vast amount of knowledge and experience earned by Venerable Dreadnoughts places them in high regard amongst the other warriors of their Chapter. From the lowliest Initiate to the Chapter Master, all will eventually seek out the advice of one of these Ancients."/>
+	<entry name="SpaceMarines/AncientAdministrator" value="I Bring Redemption"/>
+	<entry name="SpaceMarines/AncientAdministratorDescription" value="Calls down a Fortress of Redemption"/>
+	<entry name="SpaceMarines/AncientAdministratorFlavor" value="With This Bolter, I Bring Death. With This Beacon, I Bring Redemption."/>
+</language>

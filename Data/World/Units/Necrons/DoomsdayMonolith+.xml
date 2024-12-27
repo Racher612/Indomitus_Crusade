@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Necrons/Monolith"
+				material="Units/Necrons/DoomsdayMonolith"
+				idleAnimation="Units/Necrons/MonolithIdle"
+				idleAnimationCount="1"
+				idleContinuously="1"
+				scale="0.8 0.8 1.2"
+				explosionsBone="Hull"/>
+	</model>
+	<weapons>
+		<weapon name="GaussObliterator">
+			<model>
+				<projectileWeapon muzzleBone="MuzzleParticleWhip0"
+						fireInterval="0.4"/>
+			</model>
+		</weapon>
+		<weapon name="GaussFluxArc" slotName="GaussFluxArc" count="4" enabled="0">
+			<model>
+				<projectileWeapon muzzleBone=".Muzzle"
+						muzzleCount="12"
+						fireInterval="0.3"
+						effectFaceWeight="0"/>	
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="10"/> <!-- %armor base armor=14/14/14 -->
+				<energyCost base="200.0"/> <!-- %energyCost base tier=10 factor=1 -->
+				<hitpointsMax base="82.0"/> <!-- %hitpointsMax base armor=14/14/14 wounds=4 -->
+				<moraleMax base="20"/> <!-- %moraleMax base leadership=10 -->
+				<movementMax base="3"/>
+				<oreUpkeep base="16.0"/> <!-- %oreUpkeep base tier=10 factor=1 -->
+				<productionCost base="60.0"/> <!-- %productionCost base tier=10 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<influenceUpkeep base="16.0"/> <!-- %influenceUpkeep base tier=5 factor=2 -->
+				<influenceCost base="200.0"/> <!-- %influenceCost base tier=5 factor=2 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	animation="Units/Necrons/MonolithAttack"
+						beginFire="1.4"
+						endFire="2.55"/>
+			</model>		
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Necrons/MonolithDie"
+						sound="Units/LargeVehicleDie"
+						soundCount="3"
+						soundDelay="0.4"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action sound="Units/Necrons/MonolithMove"
+						soundCount="2"/>
+			</model>
+		</move>
+		<necrodermisRepair consumedActionPoints="0" consumedMovement="0"
+				cooldown="1"
+				name="Necrons/NecrodermisRepair"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Heal"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Necrons/NecrodermisRepair3">
+					<effects>
+						<cooldown max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpoints add="6"/>
+									</effects>
+								</modifier>
+								<modifier requiredUpgrade="Necrons/NecrodermisRepair2">
+									<effects>
+										<hitpoints add="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</necrodermisRepair>
+		<useWeapon cooldown="1"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				weaponSlotName="GaussFluxArc">
+			<model>
+				<action	animation="Units/Necrons/MonolithGaussFluxArc"
+						beginFire="0.5"
+						endFire="2.0"/>
+			</model>
+		</useWeapon>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<resurrectionOrb cooldown="1"
+				icon="Actions/Necrons/Monolithium"
+				name="Necrons/Monolithium"
+				consumedActionPoints="0" 
+				consumedMovement="0"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/Necrons/MonolithAttack"
+						beginFire="1.4"
+						endFire="2.55"
+						sound="Actions/Puissance"/>
+			</model>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="1">
+					<conditions>
+						<unit>
+							<actionPoints greater="0"/>
+							<allied/>
+							<type name="Necrons/Monolith"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Stunned"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Necrons/Monolithium"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</resurrectionOrb>
+		<resurrectionOrb cooldown="1"
+				icon="Actions/Necrons/MonolithDrain"
+				name="Necrons/MonolithDrain"
+				consumedActionPoints="0" 
+				consumedMovement="0"
+				requiredActionPoints="0">
+			<model>
+				<action animation="Units/Necrons/MonolithAttack"
+						beginFire="1.4"
+						endFire="2.55"
+						sound="Actions/Drain"/>
+			</model>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<target rangeMin="1" rangeMax="1">
+					<conditions>
+						<unit>
+							<allied/>
+							<type name="Necrons/Monolith"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="-0.25"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.25"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</resurrectionOrb>
+		<huntersFromHyperspace cooldownMin="6" cooldownMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				name="Necrons/Phase"
+				icon="Actions/Necrons/Phase"
+				rank="-1"
+				rankMax="2">
+			<model>
+				<action sound="Actions/Phase"/>
+			</model>
+			<endTargets>
+				<target>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Necrons/Phase"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</endTargets>
+		</huntersFromHyperspace>
+		<genericUnitAbility passive="1" 
+				name="Necrons/PSG"
+				icon="Actions/Necrons/PSG"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Necrons/PSG"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<royalGuard name="Necrons/Eveil"
+				icon="Actions/Necrons/Eveil"
+				cooldown="1"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action sound="Actions/Invocation"/>
+			</model>		
+			<beginTargets>
+				<target rangeMax="6">
+					<conditions>
+						<tile>
+							<land/>
+							<noUnit/>
+							<noFeature name="GravityWaves"/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addUnit name="Necrons/Warrior" consumedAction="0" consumedMovement="0" levelMin="2" levelMax="6"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</royalGuard>
+		<resurrectionOrb cooldown="5"
+				elite="1"
+				levelUpPriority="1"				
+				rank="-1"
+				rankMax="0"
+				name="Necrons/GaussObliterator"
+				icon="Actions/Necrons/GaussObliterator">
+			<model>
+				<action	animation="Units/Necrons/MonolithAttack"
+						beginFire="1.4"
+						endFire="2.55"
+						sound="Actions/GaussObliterator"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<weaponDamage weapon="GaussObliteratorLess"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</resurrectionOrb>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
+		<trait name="Necrons/EternityGate"/>
+		<trait name="ExtraVehicleArmour" requiredUpgrade="Necrons/ExtraVehicleArmour"/>
+		<trait name="Necrons/LivingMetal"/>
+		<trait name="Skimmer"/>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<trait name="Hero"/>
+		<trait name="Unique"/>
+		<trait name="Necrons/EnergyField"/>
+	</traits>
+</unit>

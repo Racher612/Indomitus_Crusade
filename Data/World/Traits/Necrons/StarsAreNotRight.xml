@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="0" category="Debuff" icon="Actions/Necrons/StarsAreNotRight">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Necrons/StarsAreRight"/>
+				</unit>
+			</conditions>
+			<effects>
+				<attacks mul="-0.30"/>
+				<damage mul="-0.30"/>
+				<movementMax add="-1"/>
+				<accuracy add="-2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

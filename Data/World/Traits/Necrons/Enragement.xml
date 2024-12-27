@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/Enragement">
+	<modifiers>
+		<modifier>
+			<effects>
+				<lifeStealFactor add="0.15"/>
+				<attacks mul="0.15"/>
+				<damage mul="0.15"/>
+				<movementMax add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

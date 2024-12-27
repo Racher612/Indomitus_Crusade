@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Debuff" icon="Actions/Necrons/EmpathicObliterator">
+	<modifiers>
+		<modifier>
+			<effects>
+				<damageTaken mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

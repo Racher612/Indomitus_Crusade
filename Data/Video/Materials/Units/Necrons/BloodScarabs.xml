@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Necrons/BloodScarabsDiffuse"/>
+		<texture name="Units/Necrons/BloodScarabsNormal"/>
+		<texture name="Units/Necrons/BloodScarabsSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

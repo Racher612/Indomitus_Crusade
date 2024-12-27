@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/Necrons/StarsAreRight">
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks mulMin="0.20" mulMax="0.6"/>
+				<damage mulMin="0.20" mulMax="0.6"/>
+				<movementMax addMin="1" addMax="3"/>
+				<accuracy addMin="2" addMax="4"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

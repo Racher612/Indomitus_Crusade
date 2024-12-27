@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Necrons/HeavyDestroyerLord" value="Necrons/Lord"/>
+	<entry name="Necrons/BloodCanoptek" value="Necrons/FlayedOne"/>
+	<entry name="Necrons/BloodScarab" value="Necrons/FlayedOne"/>
+	<entry name="Necrons/DoomsdayMonolith" value="Necrons/Monolith"/>
+	<entry name="Necrons/VoidDragon" value="Necrons/TesseractVault"/>
+
+    <entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#0" value="Какой у вас орден или легион?"/>
+    <entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#1" value="Хм... жаль, похоже, у меня уже есть несколько шлемов из вашего ордена, Космические десантники."/>
+    <entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#2" value="Люди такие слабые, но такие интригующие."/>
+    <entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#3" value="Я надеюсь, что среди верующих Империума есть исключительные образцы, достойные увековечения."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines" value="4"/>
+
+    <entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#0" value="Итак, Орикан, когда у нас следующее испытание?"/>
+    <entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#4" value="Признайся, Орикан, ты ничего не можешь сделать без меня."/>
+    <entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#2" value="Что ты украл у меня на этот раз, Астромансер?"/>
+    <entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#3" value="Я не забыл разрушение твоего последнего визита в мой дом, Астромансер."/>
+    <entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#4" value="Все еще не стал светлым существом, Орикан ?"/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan" value="5"/>
+
+    <entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#0" value="Итак, Орикан, когда у нас следующее испытание?"/>
+    <entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#4" value="Признайся, Орикан, ты ничего не можешь сделать без меня."/>
+    <entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#2" value="Что ты украл у меня на этот раз, Астромансер?"/>
+    <entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#3" value="Я не забыл разрушение твоего последнего визита в мой дом, Астромансер."/>
+    <entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#4" value="Все еще не стал светлое существо, Орикан ?"/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan" value="5"/>
+
+    <entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum#0" value="Люди такие слабые, но такие интригующие."/>
+    <entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum#1" value="Я надеюсь, что среди верующих Империума есть исключительные образцы, достойные увековечения."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum" value="2"/>
+
+    <entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum#0" value="Люди такие слабые, но такие интригующие."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum#1" value="Я надеюсь, что среди верующих Империума есть исключительные образцы, достойные увековечения."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum" value="2"/>
+
+    <entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarines#0" value="Здесь оскверненные люди, если бы только я мог заполучить Абаддона"/>
+    <entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarines#1" value="Астартес Хаоса имеют сходство с Ориканом, они ужасны и совершенно безумны."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarinesCount" value="2"/>
+
+    <entry name="Necrons/Trazyn:EnemyFaction:Orks#0" value="Наконец-то новая возможность захватить Горканавта, в прошлый раз у меня не было возможности."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:Orks#1" value="А, еще орки. Может, я все равно получу статую."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:Orks#2" value="Надеюсь, у тебя с собой Горканавт. Одного не хватает в моей галерее орков."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:OrksCount" value="3"/>
+
+    <entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#0" value="Какой у вас орден или легион?"/>
+    <entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#1" value="Хм... жаль, похоже, у меня уже есть несколько шлемов из вашего ордена, Космические десантники."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#2" value="Люди такие слабые, но такие интригующие."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#3" value="Я надеюсь, что среди верующих Империума есть исключительные образцы, достойные увековечения."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarinesCount" value="4"/>
+
+    <entry name="Necrons/Trazyn:EnemyFaction:Necrons#0" value="Другие некроны, еще предстоит увидеть, будут ли они такими же открытыми, как я."/>
+    <entry name="Necrons/Trazyn:EnemyFaction:Necrons#1" value="Интересно, согласятся ли эти некроны посетить мои галереи."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:NecronsCount" value="2"/>
+
+    <entry name="Necrons/Trazyn:Artefact#0" value="Приведи меня к этому артефакту, я просто хочу его изучить. Клянусь."/>
+    <entry name="Necrons/Trazyn:Artefact#1" value="Ещё одна новая находка, которую нужно сохранить. Давайте поторопимся."/>
+    <entry name="Necrons/Trazyn:Artefact#2" value="Быстрее! Забирай артефакт, пока Орикан не выбил у меня почву из-под ног!"/>
+	<entry name="Necrons/Trazyn:ArtefactCount" value="3"/>
+
+    <entry name="Necrons/Trazyn:Attack#0" value="Я не хочу сражаться, но пусть будет так."/>
+    <entry name="Necrons/Trazyn:Attack#1" value="Я не воин, я археолог."/>
+    <entry name="Necrons/Trazyn:Attack#2" value="Почему я должен сражаться?"/>
+    <entry name="Necrons/Trazyn:Attack#3" value="Ты тратишь мои навыки на такую ​​бесполезную задачу?"/>
+    <entry name="Necrons/Trazyn:Attack#4" value="Я мог бы вместо этого послать свои войска."/>
+	<entry name="Necrons/Trazyn:AttackCount" value="5"/>
+
+	<entry name="Necrons/Trazyn:Cover#0" value="Как обычно, хорошо укрыт."/>
+	<entry name="Necrons/Trazyn:CoverCount" value="1"/>
+
+    <entry name="Necrons/Trazyn:Hurt#0" value="У меня есть план. У меня всегда есть план."/>
+    <entry name="Necrons/Trazyn:Hurt#1" value="Может быть, пришло время использовать плащ, чтобы выбраться из этой передряги."/>
+    <entry name="Necrons/Trazyn:Hurt#2" value="К счастью, у меня есть еще один конверт неподалеку."/>
+    <entry name="Necrons/Trazyn:Hurt#3" value="Смерть переоценена. Я бессмертен и бесконечен."/>
+	<entry name="Necrons/Trazyn:HurtCount" value="4"/>
+
+    <entry name="Necrons/Trazyn:Idle#0" value="Я почитаем Империумом, у меня даже была статуя. Которую я, очевидно, восстановил."/>
+    <entry name="Necrons/Trazyn:Idle#1" value="Я когда-нибудь рассказывал вам, как убил гигантского ящера с помощью своей баржи?"/>
+    <entry name="Necrons/Trazyn:Idle#2" value="Надеюсь, оборона Солемнаса выдержит мое отсутствие."/>
+    <entry name="Necrons/Trazyn:Idle#3" value="Кто-нибудь видел Орикана? Уверен, он снова собирается меня побеспокоить."/>
+    <entry name="Necrons/Trazyn:Idle#4" value="Если найдете ценную цель, дайте мне знать."/>
+    <entry name="Necrons/Trazyn:Idle#5" value="Новая планета, новые культуры и новая охрана природы возможности."/>
+    <entry name="Necrons/Trazyn:Idle#6" value="Этот мир... странный."/>
+    <entry name="Necrons/Trazyn:Idle#7" value="Я уже был здесь, но с тех пор это место сильно изменилось."/>
+    <entry name="Necrons/Trazyn:Idle#8" value="Вы слышали эту мелодию?"/>
+    <entry name="Necrons/Trazyn:Idle#9" value="Ах, я скучаю по своему маршевому оркестру Танит."/>
+    <entry name="Necrons/Trazyn:Idle#10" value="Кто-то разбил мое витражное окно, я думаю, Орикан как-то к этому причастен."/>
+    <entry name="Necrons/Trazyn:Idle#11" value="С тех пор, как я проснулся, меня переполняют обязательства... когда же у меня будет время найти другие предметы ??"/>
+    <entry name="Necrons/Trazyn:Idle#12" value="Мой плащ ? Готов. Мой посох ? Готов. Лабиринты Тессеракты ? Готовы."/>
+	<entry name="Necrons/Trazyn:IdleCount" value="13"/>
+
+    <entry name="Necrons/Trazyn:Victory#0" value="Какая трата, ты бы занял место в моих галереях."/>
+    <entry name="Necrons/Trazyn:Victory#1" value="Я не уверен, что ты достоин права быть увековеченным."/>
+    <entry name="Necrons/Trazyn:Victory#2" value="Это было легко и разочаровывающе."/>
+    <entry name="Necrons/Trazyn:Victory#3" value="Мимолетное отвлечение."/>
+    <entry name="Necrons/Trazyn:Victory#4" value="Ты мог бы стать гораздо большим, чем мои жертвы."/>
+	<entry name="Necrons/Trazyn:VictoryCount" value="5"/>
+
+    <entry name="Necrons/Orikan:AlliedFaction:SpaceMarines#0" value="Куча мышц без мозгов, я научился ценить спокойствие, царящее среди наших безжизненных легионов."/>
+    <entry name="Necrons/Orikan:AlliedFaction:SpaceMarines#1" value="Человечество слабо, доверчиво и не имеет будущего."/>
+	<entry name="Necrons/Orikan:AlliedFaction:SpaceMarines" value="2"/>
+
+    <entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum#0" value="Люди — действительно уродливые и бесполезные существа. Немного похожи на Тразина."/>
+    <entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum#1" value="Человечество слабо, доверчиво и не имеет будущего."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum" value="2"/>
+
+    <entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus#0" value="Механикус... группа детей, которые хотели бы быть похожими на нас, но которые уважают бесплодную и бесполезную догму."/>
+    <entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus#1" value="Нужно быть идиотом, чтобы поклоняться машинам, а не своим собственным знаниям."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus" value="2"/>
+
+    <entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus#0" value="Механикус... группа детей, которые хотели бы быть похожими на нас, но уважают бесплодные и бесполезные догмы."/>
+    <entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus#1" value="Надо быть идиотом, чтобы преклоняться перед машинами, а не собственными знаниями."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus" value="2"/>
+
+    <entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum#0" value="Люди — действительно уродливые и бесполезные существа. Немного похожи на Тразина."/>
+    <entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum#1" value="Человечество слабо, доверчиво и бесперспективно."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum" value="2"/>
+
+    <entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#0" value="Что ты собираешься делать на этот раз, Тразин? Новая шутка, ведущая к новому Экстерминатусу?"/>
+    <entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#1" value="Всё ещё плетёшь интриги за моей спиной, Тразин?"/>
+    <entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#2" value="Держание за прошлое не спасет будущее, Тразин."/>
+	<entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn" value="3"/>
+
+    <entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#0" value="Что ты собираешься делать на этот раз, Тразин? Новая шутка, ведущая к новому Экстерминатусу?"/>
+    <entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#1" value="Всё ещё плетёшь интриги за моей спиной, Тразин?"/>
+    <entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#2" value="Держание за прошлое не спасет будущее, Тразин."/>
+	<entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn" value="3"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:ChaosSpaceMarines#0" value="Ааа... есть ли худшая аномалия, чем эта банда продажных и развращенных людей?"/>
+	<entry name="Necrons/Orikan:EnemyFaction:ChaosSpaceMarinesCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:Tyranids#0" value="Тираниды... как подумаю, что Тразину было весело подшутить надо мной с одним из них и что он чуть не приговорил целую планету."/>
+	<entry name="Necrons/Orikan:EnemyFaction:TyranidsCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:Orks#0" value="Орки тратят свое время на то, чтобы сеять хаос в моих расчетах."/>
+	<entry name="Necrons/Orikan:EnemyFaction:OrksCount" value="1"/>
+
+    <entry name="Necrons/Orikan:EnemyFaction:SpaceMarines#0" value="Куча мышц без мозгов, я научился ценить спокойствие, царящее среди наших безжизненных легионов."/>
+    <entry name="Necrons/Orikan:EnemyFaction:SpaceMarines#1" value="Человечество слабо, доверчиво и не имеет будущего."/>
+	<entry name="Necrons/Orikan:EnemyFaction:SpaceMarinesCount" value="2"/>
+
+    <entry name="Necrons/Orikan:EnemyFaction:Necrons#0" value="А, эти наши люди. Я единственный, кто понимает наше настоящее будущее в этой галактике?"/>
+    <entry name="Necrons/Orikan:EnemyFaction:Necrons#1" value="Этот молчаливый рой, который осмеливается называть себя некронами, даже не заслуживает моего внимания."/>
+	<entry name="Necrons/Orikan:EnemyFaction:NecronsCount" value="2"/>
+
+    <entry name="Necrons/Orikan:Artefact#0" value="Захватывающий, увлекательный и древний... Мне нужен этот артефакт сейчас."/>
+    <entry name="Necrons/Orikan:Artefact#1" value="Какое математическое сокровище я найду в этом древнем открытии?"/>
+	<entry name="Necrons/Orikan:ArtefactCount" value="2"/>
+
+    <entry name="Necrons/Orikan:Attack#0" value="Ты аномалия, и ты должен умереть за это."/>
+    <entry name="Necrons/Orikan:Attack#1" value="Будущее требует твоего уничтожения."/>
+    <entry name="Necrons/Orikan:Attack#2" value="Звезды требуют твоего уничтожения."/>
+    <entry name="Necrons/Orikan:Attack#3" value="Мне просто нужно представить, что ты Тразин."/>
+    <entry name="Necrons/Orikan:Attack#4" value="Страдай и бойся меня."/>
+	<entry name="Necrons/Orikan:AttackCount" value="5"/>
+
+    <entry name="Necrons/Orikan:Shaken#0" value="Звёзды... больше не выстроились."/>
+    <entry name="Necrons/Orikan:Shaken#1" value="Я не собираюсь провести тысячелетие под руинами, пока нет!"/>
+	<entry name="Necrons/Orikan:ShakenCount" value="2"/>
+
+    <entry name="Necrons/Orikan:Broken#0" value="Я потерпел неудачу... галактика заплатит цену."/>
+    <entry name="Necrons/Orikan:Broken#1" value="Мои расчёты были искажены, всё потеряно."/>
+	<entry name="Necrons/Orikan:BrokenCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Cover#0" value="Я собираюсь укрыться, пока мой некродерм не восстановится."/>
+	<entry name="Necrons/Orikan:CoverCount" value="1"/>
+
+    <entry name="Necrons/Orikan:Hurt#0" value="Адаптация Хроносенса..."/>
+    <entry name="Necrons/Orikan:Hurt#1" value="Некродерм в процессе восстановления."/>
+	<entry name="Necrons/Orikan:HurtCount" value="2"/>
+
+    <entry name="Necrons/Orikan:Idle#0" value="Посещение Солемнаса переоценено, и я снова взвешиваю свои слова."/>
+    <entry name="Necrons/Orikan:Idle#1" value="Когда аномалия мешает моим расчетам, это потому, что Тразин недалеко."/>
+    <entry name="Necrons/Orikan:Idle#2" value="Я победил тебя, Вишани."/>
+    <entry name="Necrons/Orikan:Idle#3" value="Я Верховный Хрономант, величайший из Криптеков."/>
+    <entry name="Necrons/Orikan:Idle#4" value="Я единственный, кто разгадал загадки Вишани."/>
+    <entry name="Necrons/Orikan:Idle#5" value="Некронтиры должны стать светлыми существами."/>
+    <entry name="Necrons/Orikan:Idle#6" value="Я — Орикан, Прорицатель."/>
+	<entry name="Necrons/Orikan:IdleCount" value="7"/>
+
+    <entry name="Necrons/Orikan:Victory#0" value="То, что я написал, ты не сможешь отменить."/>
+    <entry name="Necrons/Orikan:Victory#1" value="Победа достается тем, кто может её захватить."/>
+    <entry name="Necrons/Orikan:Victory#2" value="У меня были столетия, чтобы подготовиться к этой победе."/>
+	<entry name="Necrons/Orikan:VictoryCount" value="3"/>
+</language>

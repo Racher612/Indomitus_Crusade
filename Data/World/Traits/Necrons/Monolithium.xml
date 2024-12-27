@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/Monolithium">
+	<modifiers>
+		<modifier>
+			<effects>
+				<accuracy mul="0.33"/>
+				<rangedArmorPenetration add="3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

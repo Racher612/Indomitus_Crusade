@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Debuff" icon="Actions/Necrons/Corruption">
+	<modifiers>
+		<modifier>
+			<effects>
+				<accuracy mul="-0.33"/>
+				<moraleLossFactor add="1"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

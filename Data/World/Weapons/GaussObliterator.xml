@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon icon="Weapons/ParticleWhip">
+	<model>
+		<beamWeapon fireInterval="0.5"
+				fireSound="Weapons/ParticleWhip"
+		 		fireSoundCount="3"
+				beamsBlueprint="Effects/ParticleBeams"
+		 		beamsEmitterBlueprint="Effects/ParticleBeamsEmitter"
+		 		muzzleFlashesBlueprint="Effects/GaussMuzzleFlashes"
+		 		explosionsBlueprint="Effects/NecronExplosions"
+				explosionsEmitterBlueprint="Effects/NecronExplosionsEmitter"/>
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<attacks add="1"/>
+				<rangedArmorPenetration add="6"/> <!-- %rangedArmorPenetration add armorPiercing=3 -->
+				<rangedDamage add="8"/> <!-- %rangedDamage add strength=8 -->
+				<strengthDamage base="0"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<target rangeMax="3"/>
+	<traits>
+		<trait name="Necrons/BlastDamage" requiredUpgrade="Necrons/BlastDamage"/>
+		<trait name="LargeBlast"/>
+		<trait name="Ordnance"/>
+		<trait name="Haywire"/>
+	</traits>
+</weapon>

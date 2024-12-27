@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/Necrons/TranscendentCtan"
+				material="Units/Necrons/VoidDragon"
+				idleAnimation="Units/Necrons/TranscendentCtanIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				scale="2 2 2"
+				bloodBone="BloodBone"
+				transparent="1"/>
+	</model>
+	<weapons>
+		<weapon name="CloseCombatWeapon">
+			<model>
+				<weapon fireInterval="1.0"
+						fireSoundCount="0"/>
+			</model>
+		</weapon>
+		<weapon name="TransdimensionalThunderboltTranscendent" slotName="TransdimensionalThunderboltTranscendent" enabled="0">
+			<model>
+				<beamWeapon muzzleBone="Bone121(mirrored)"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<energyCost base="240.0"/> <!-- %energyCost base tier=9 factor=1 -->
+				<hitpointsMax base="50.0"/> <!-- %hitpointsMax base toughness=7 wounds=5 -->
+				<meleeAccuracy base="10"/> <!-- %meleeAccuracy base weaponSkill=5 -->r
+				<meleeAttacks base="3"/>
+				<strengthDamage base="6"/> <!-- %strengthDamage base strength=8 -->
+				<!-- <meleeInitiative base="4"/> -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=10 -->
+				<movementMax base="3"/>
+				<oreUpkeep base="12.0"/> <!-- %oreUpkeep base tier=9 factor=1 -->
+				<productionCost base="54.0"/> <!-- %productionCost base tier=9 factor=1 -->
+				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=5 -->
+				<itemSlots base="6"/>
+				<levelMax base="9"/>
+				<influenceUpkeep base="12.0"/> <!-- %influenceUpkeep base tier=7 factor=2 -->
+				<influenceCost base="200.0"/> <!-- %influenceCost base tier=7 factor=2 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseHeroesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action	chargeAnimation="Units/Necrons/TranscendentCtanCharge"
+						chargeDefenseAnimation="Units/Necrons/TranscendentCtanChargeDefense"
+						meleeAnimation="Units/Necrons/TranscendentCtanMelee"
+						meleeDefenseAnimation="Units/Necrons/TranscendentCtanMeleeDefense"
+						meleeBeginSwing="0.5"
+						meleeEndSwing="1.0"
+						meleeSound="Units/Necrons/TranscendentCtanAttack"
+						meleeSoundCount="2"/>
+			</model>		
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanDie"
+						voiceSound="Units/Necrons/TranscendentCtanDie"
+						voiceSoundCount="2"
+						soundDelay="0.7"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action animationSpeed="1.0"/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action sound="Units/Necrons/TranscendentCtanMove"
+						soundCount="3"/>
+			</model>
+		</move>
+		<necrodermisRepair consumedActionPoints="0" consumedMovement="0"
+				cooldown="1"
+				name="Necrons/NecrodermisRepair"
+				requiredActionPoints="0">
+			<model>
+				<action sound="Actions/Heal"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="60"/>
+					</effects>
+				</modifier>
+				<modifier requiredUpgrade="Necrons/NecrodermisRepair3">
+					<effects>
+						<cooldown max="0"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<conditions>
+				<unit>
+					<damaged/>
+				</unit>
+			</conditions>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpoints add="6"/>
+									</effects>
+								</modifier>
+								<modifier requiredUpgrade="Necrons/NecrodermisRepair2">
+									<effects>
+										<hitpoints add="2"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</necrodermisRepair>
+		<auraOfFear passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Fear"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfFear>
+		<genericUnitAbility name="Necrons/WrithingWorldscape"
+				passive="1">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1" excludeRadius="0">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Necrons/WrithingWorldscape"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<hammerOfWrath consumedActionPoints="0" consumedMovement="0"
+				cooldown="3"
+				requiredUpgrade="Necrons/HammerOfWrath">
+			<model>
+				<action sound="Actions/PsychicBuff"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="HammerOfWrath" duration="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</hammerOfWrath>
+		<returnToTheShadows cooldown="3"
+				name="Necrons/PartSpiri"
+				icon="Actions/Necrons/PartSpiri"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanAbility1"
+						sound="Actions/ReturnToTheShadows"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="Necrons/PartSpiri"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</returnToTheShadows>
+		<returnToTheShadows cooldown="3"
+				name="Necrons/Cosmicinsanity"
+				icon="Actions/Necrons/Cosmicinsanity"
+				consumedMovement="0">
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanAbility1"
+						sound="Actions/Doom"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+										</unit>
+									</conditions>
+									<effects>
+										<morale add="-4"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</returnToTheShadows>
+		<transdimensionalThunderbolt weaponSlotName="TransdimensionalThunderboltTranscendent" cooldown="3">
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanAbility0"
+						beginFire="0.5"
+						endFire="2.7"/>
+			</model>
+		</transdimensionalThunderbolt>
+		<returnToTheShadows cooldown="3"
+				name="Necrons/Contrôle"
+				icon="Actions/Necrons/Contrôle"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2"
+				requiredActionPoints="0"
+				consumedActionPoints="0">
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanAbility0"
+						beginFire="0.5"
+						endFire="2.7"
+						sound="Actions/Command"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="3">
+					<conditions>
+						<unit>
+							<enemy/>
+							<trait name="Vehicle"/>
+							<noTrait name="Hero"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<noTrait name="SuperHeavy"/>
+											<noTrait name="Transport"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait durationMin="2" durationMax="4" name="Enslaved" removeOnSourceDeath="1"/>
+									</effects>
+								</modifier>
+								<modifier>
+									<conditions>
+										<unit match="Any">
+											<trait name="SuperHeavy"/>
+											<trait name="Transport"/>
+										</unit>
+									</conditions>
+									<effects>
+										<addTrait durationMin="2" durationMax="4" name="Stunned" removeOnSourceDeath="1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</returnToTheShadows>
+		<genericUnitAbility passive="1"
+				name="Necrons/Moléculaire"
+				icon="Traits/DistortScythe"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Necrons/Moléculaire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<genericUnitAbility passive="1"
+				name="Necrons/VoltaicStorm"
+				icon="Actions/Necrons/VoltaicStorm"
+				levelUpPriority="0.15"
+				rank="-1"
+				rankMax="2">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="Necrons/VoltaicStorm"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</genericUnitAbility>
+		<returnToTheShadows cooldown="6"
+				name="Necrons/Deathgaze"
+				icon="Actions/Necrons/Deathgaze"
+				elite="1"
+				levelUpPriority="1"
+				rank="-1"
+				rankMax="0"
+				consumedMovement="0">
+			<model>
+				<action animation="Units/Necrons/TranscendentCtanAbility1"
+						sound="Actions/Dominate"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Unit" excludeRadius="0" radius="3">
+							<modifiers>
+								<modifier>
+									<conditions>
+										<unit>
+											<enemy/>
+											<noTrait name="Vehicule"/>
+											<noTrait name="Fortification"/>
+										</unit>
+									</conditions>
+									<effects>
+										<weaponDamage weapon="Deathgaze"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</returnToTheShadows>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="Necrons/AttackCityBonus" requiredUpgrade="Necrons/AttackCityBonus"/>
+		<trait name="Necrons/CtanNecrodermis"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="Necrons/ExtraInfantryArmour"/>
+		<trait name="Fearless"/>
+		<trait name="Necrons/ImmuneToNaturalLaw"/>
+		<trait name="MonstrousCreature"/>
+		<trait name="MoveThroughCover"/>
+		<trait name="Relentless"/>
+		<trait name="Smash"/>
+		<trait name="Hero"/>
+		<trait name="Unique"/>
+	</traits>
+</unit>

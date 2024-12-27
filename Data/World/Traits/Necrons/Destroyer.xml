@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/Necrons/Destroyer">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<allied/>
+					<type name="Necrons/HeavyDestroyer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<rangedAccuracy add="2"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

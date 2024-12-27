@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" rankMax="2" category="Buff" icon="Actions/Necrons/VoltaicStorm">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<weapon>
+					<trait name="Tesla"/>
+				</weapon>
+			</conditions>
+			<effects>
+				<rangedAttacks addMin="0.5" addMax="1.5"/>
+				<additionalMembersHit addMin="1" addMax="3"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

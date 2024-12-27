@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Necrons/OrikanDiffuse"/>
+		<texture name="Units/Necrons/OrikanNormal"/>
+		<texture name="Units/Necrons/OrikanSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

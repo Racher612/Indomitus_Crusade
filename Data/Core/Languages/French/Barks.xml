@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="Necrons/HeavyDestroyerLord" value="Necrons/Lord"/>
+	<entry name="Necrons/BloodCanoptek" value="Necrons/FlayedOne"/>
+	<entry name="Necrons/BloodScarab" value="Necrons/FlayedOne"/>
+	<entry name="Necrons/DoomsdayMonolith" value="Necrons/Monolith"/>
+	<entry name="Necrons/VoidDragon" value="Necrons/TesseractVault"/>
+
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#0" value="Quel est votre chapitre ou légion déjà ?"/>
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#1" value="Hmm... dommage, il semblerait que j'ai déjà des casques issue de votre chapitre, Space Marines."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#2" value="Vous, les humains, êtes si faibles et pourtant si intriguant."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines#3" value="J'espère que parmis les fidèles de l'Imperium se trouve des spécimens d'exceptions valant la peine d'être immortalisé."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:SpaceMarines" value="4"/>
+
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#0" value="Alors Orikan, à quand notre prochain procès ?"/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#4" value="Avouez le Orikan, vous ne pouvez pas vous passer de moi."/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#2" value="Qu'est ce que vous m'avez volé cette fois, Astromancien ?"/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#3" value="Je n'ai pas oublié le saccage de votre dernier passage chez moi, Astromancien."/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan#4" value="Toujours pas devenu un être de lumière, Orikan ?"/>
+	<entry name="Necrons/Trazyn:AlliedUnit:Necrons/Orikan" value="5"/>
+
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#0" value="Alors Orikan, à quand notre prochain procès ?"/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#4" value="Avouez le Orikan, vous ne pouvez pas vous passer de moi."/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#2" value="Qu'est ce que vous m'avez volé cette fois, Astromancien ?"/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#3" value="Je n'ai pas oublié le saccage de votre dernier passage chez moi, Astromancien."/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan#4" value="Toujours pas devenu un être de lumière, Orikan ?"/>
+	<entry name="Necrons/Trazyn:EnemyUnit:Necrons/Orikan" value="5"/>
+
+	<entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum#0" value="Vous, les humains, êtes si faibles et pourtant si intriguant."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum#1" value="J'espère que parmis les fidèles de l'Imperium se trouve des spécimens d'exceptions valant la peine d'être immortalisé."/>
+	<entry name="Necrons/Trazyn:AlliedFaction:AstraMilitarum" value="2"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum#0" value="Vous, les humains, êtes si faibles et pourtant si intriguant."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum#1" value="J'espère que parmis les fidèles de l'Imperium se trouve des spécimens d'exceptions valant la peine d'être immortalisé."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:AstraMilitarum" value="2"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarines#0" value="Les humains corrompus sont là, ah si seulement je pouvais mettre la main sur Abaddon."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarines#1" value="Les Astartes du Chaos partagent des similitudes avec Orikan, ils sont horripilants et complètement fou."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:ChaosSpaceMarinesCount" value="2"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:Tyranids#0" value="Ces créatures se reproduisent un peu trop vite à mon goût."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:Tyranids#1" value="L'essaim... espérons que je puisse trouver des spécimens spéciaux."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:TyranidsCount" value="1"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:Orks#0" value="Enfin une nouvelle opportunité ce capturer un Gorkanaut, je n'ai pas eu la possibilité la dernière fois."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:Orks#1" value="Ah, encore des Orks. Peut être que je vais encore avoir droit à une statue."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:Orks#2" value="J'espère que vous avez un Gorkanaut avec vous. Il en manque un dans ma gallerie des Orks."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:OrksCount" value="3"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#0" value="Hmm... dommage, il semblerait que j'ai déjà des casques issue de votre chapitre, Space Marines."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#1" value="Quel est votre chapitre ou légion déjà ?"/>
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#2" value="Vous, les humains, êtes si faibles et pourtant si intriguant."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarines#3" value="J'espère que parmis les fidèles de l'Imperium se trouve des spécimens d'exceptions valant la peine d'être immortalisé."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:SpaceMarinesCount" value="4"/>
+
+	<entry name="Necrons/Trazyn:EnemyFaction:Necrons#0" value="D'autres Nécrons, reste à savoir s'ils seront aussi ouvert que moi."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:Necrons#1" value="Je me demande si ces Nécrons accepteraient de visiter mes galleries."/>
+	<entry name="Necrons/Trazyn:EnemyFaction:NecronsCount" value="2"/>
+
+	<entry name="Necrons/Trazyn:Artefact#0" value="Menez moi à cet artefact, je veux simplement l'étudier. Promis."/>
+	<entry name="Necrons/Trazyn:Artefact#1" value="Encore une nouvelle trouvaille à préserver. Pressons le pas."/>
+	<entry name="Necrons/Trazyn:Artefact#2" value="Vite ! Récupérez l'artefact avant qu'Orikan ne me coupe l'herbe sous le pied !"/>
+	<entry name="Necrons/Trazyn:ArtefactCount" value="3"/>
+
+	<entry name="Necrons/Trazyn:Attack#0" value="Je répugne à combattre mais soit."/>
+	<entry name="Necrons/Trazyn:Attack#1" value="Je ne suis pas un guerrier, je suis archéoviste."/>
+	<entry name="Necrons/Trazyn:Attack#2" value="Pourquoi dois-je combattre ?"/>
+	<entry name="Necrons/Trazyn:Attack#3" value="Vous gâchez mes compétences pour une tâche si futile ?"/>
+	<entry name="Necrons/Trazyn:Attack#4" value="J'aurais pu envoyer mes troupes à la place."/>
+	<entry name="Necrons/Trazyn:AttackCount" value="5"/>
+
+	<entry name="Necrons/Trazyn:Cover#0" value="Bien à l'abri, comme d'habitude."/>
+	<entry name="Necrons/Trazyn:CoverCount" value="1"/>
+
+	<entry name="Necrons/Trazyn:Hurt#0" value="J'ai... un plan. J'ai toujours un plan."/>
+	<entry name="Necrons/Trazyn:Hurt#1" value="Il est peut être temps d'utiliser ma cape pour me sortir de ce pétrin."/>
+	<entry name="Necrons/Trazyn:Hurt#2" value="Heureusement que j'ai une autre enveloppe non loin de là."/>
+	<entry name="Necrons/Trazyn:Hurt#3" value="La mort, c'est surfait. Je suis immortel et infini."/>
+	<entry name="Necrons/Trazyn:HurtCount" value="4"/>
+
+	<entry name="Necrons/Trazyn:Idle#0" value="Je suis vénéré par les Impériaux, j'ai même eu droit à une statue. Que j'ai récupéré, évidemment."/>
+	<entry name="Necrons/Trazyn:Idle#1" value="Vous ais-je déjà raconté comment j'ai tué un saurien géant avec ma barge ?"/>
+	<entry name="Necrons/Trazyn:Idle#2" value="J'espère que les défenses de Solemnace tiendront en absence."/>
+	<entry name="Necrons/Trazyn:Idle#3" value="Quelqu'un à vu Orikan ? Je suis certains qu'il prépare encore un mauvais coup."/>
+	<entry name="Necrons/Trazyn:Idle#4" value="Si vous trouvez une cible de valeur, dites le moi."/>
+	<entry name="Necrons/Trazyn:Idle#5" value="Une nouvelle planète, des nouvelles cultures et des nouvelles opportunités de préservation."/>
+	<entry name="Necrons/Trazyn:Idle#6" value="Ce monde est... étrange."/>
+	<entry name="Necrons/Trazyn:Idle#7" value="Avez vous entendu cette mélodie ?"/>
+	<entry name="Necrons/Trazyn:Idle#8" value="Ah, ma fanfare de Tanith me manque."/>
+	<entry name="Necrons/Trazyn:Idle#9" value="Quelqu'un a brisé mon vitrail, je suppose qu'Orikan n'y est pas étranger."/>
+	<entry name="Necrons/Trazyn:Idle#10" value="Je suis patient, très patient."/>
+	<entry name="Necrons/Trazyn:Idle#11" value="Depuis l'éveil, je croule sous les obligations... quand aurais-je le temps de trouver d'autres sujets ?"/>
+	<entry name="Necrons/Trazyn:Idle#12" value="Ma cape ? Prête. Mon bâton ? Prêt. Labyrinthes Tesseracts ? Prêts."/>
+	<entry name="Necrons/Trazyn:IdleCount" value="13"/>
+
+	<entry name="Necrons/Trazyn:Victory#0" value="Quel gachis, vous auriez eu votre place dans mes galleries."/>
+	<entry name="Necrons/Trazyn:Victory#1" value="Je ne suis pas certains que vous valiez le droit d'être immortalisé."/>
+	<entry name="Necrons/Trazyn:Victory#2" value="Ce fut facile et décevant."/>
+	<entry name="Necrons/Trazyn:Victory#3" value="Une distraction fugaçe."/>
+	<entry name="Necrons/Trazyn:Victory#4" value="Vous auriez pu être tellement plus que mes victimes."/>
+	<entry name="Necrons/Trazyn:VictoryCount" value="5"/>
+
+	<entry name="Necrons/Orikan:AlliedFaction:SpaceMarines#0" value="Un tas de muscle sans cervelle, j'en viens à apprécier le calme qui règne parmi nos légions sans vie."/>
+	<entry name="Necrons/Orikan:AlliedFaction:SpaceMarines#1" value="Les humains sont vraiment des créatures laides et inutiles. Un peu comme Trazyn."/>
+	<entry name="Necrons/Orikan:AlliedFaction:SpaceMarines#2" value="L'humanité est faible, crédule et sans avenir."/>
+	<entry name="Necrons/Orikan:AlliedFaction:SpaceMarines" value="3"/>
+
+	<entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum#0" value="Les humains sont vraiment des créatures laides et inutiles. Un peu comme Trazyn."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum#1" value="L'humanité est faible, crédule et sans avenir."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AstraMilitarum" value="2"/>
+
+	<entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus#0" value="Le Mechanicus... une bande d'enfant qui aimerait nous ressembler mais qui respecte un dogme stérile et futile."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus#1" value="Il faut être idiot pour vénérer les machines plutôt que son propre savoir."/>
+	<entry name="Necrons/Orikan:AlliedFaction:AdeptusMechanicus" value="2"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus#0" value="Le Mechanicus... une bande d'enfant qui aimerait nous ressembler mais qui respecte un dogme stérile et futile."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus#1" value="Il faut être idiot pour vénérer les machines plutôt que son propre savoir."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AdeptusMechanicus" value="2"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum#0" value="Les humains sont vraiment des créatures laides et inutiles. Un peu comme Trazyn."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum#1" value="L'humanité est faible, crédule et sans avenir."/>
+	<entry name="Necrons/Orikan:EnemyFaction:AstraMilitarum" value="2"/>
+
+	<entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#0" value="Qu'allez vous faire cette fois, Trazyn ? Une nouvelle blague menant à un autre Exterminatus ?"/>
+	<entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#1" value="Toujours en train de comploter dans mon dos, Trazyn ?"/>
+	<entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn#2" value="S'attacher au passé ne sauvera pas le futur, Trazyn."/>
+	<entry name="Necrons/Orikan:EnemyUnit:Necrons/Trazyn" value="3"/>
+
+	<entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#0" value="Qu'allez vous faire cette fois, Trazyn ? Une nouvelle blague menant à un autre Exterminatus ?"/>
+	<entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#1" value="Toujours en train de comploter dans mon dos, Trazyn ?"/>
+	<entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn#2" value="S'attacher au passé ne sauvera pas le futur, Trazyn."/>
+	<entry name="Necrons/Orikan:AlliedUnit:Necrons/Trazyn" value="3"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:ChaosSpaceMarines#0" value="Argh... existe t'il pire anomalie que cette bande de dépravés corrompus ?"/>
+	<entry name="Necrons/Orikan:EnemyFaction:ChaosSpaceMarinesCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:Tyranids#0" value="Les Tyranides... quand je pense que Trazyn c'est amusé à me faire une plaisanterie avec l'un d'eux et qu'il a failli condamner une planète entière. "/>
+	<entry name="Necrons/Orikan:EnemyFaction:TyranidsCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:Orks#0" value="Les Orks passent leur temps à semer le chaos dans mes calculs."/>
+	<entry name="Necrons/Orikan:EnemyFaction:OrksCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:SpaceMarines#0" value="Un tas de muscle sans cervelle, j'en viens à apprécier le calme qui règne parmi nos légions sans vie."/>
+	<entry name="Necrons/Orikan:EnemyFaction:SpaceMarines#0" value="Les humains sont vraiment des créatures laides et inutiles. Un peu comme Trazyn."/>
+	<entry name="Necrons/Orikan:EnemyFaction:SpaceMarines#0" value="L'humanité est faible, crédule et sans avenir."/>
+	<entry name="Necrons/Orikan:EnemyFaction:SpaceMarinesCount" value="1"/>
+
+	<entry name="Necrons/Orikan:EnemyFaction:Necrons#0" value="Ah, ceux de notre peuple. Suis-je le seul à comprendre notre réel avenir au sein de cette galaxie ?"/>
+	<entry name="Necrons/Orikan:EnemyFaction:Necrons#1" value="Cette nuée silencieuse qui ose se faire appeler Nécrons ne mérite même pas mon attention."/>
+	<entry name="Necrons/Orikan:EnemyFaction:NecronsCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Artefact#0" value="Captivant, fascinant et ancien... il me faut cet artefact dans les plus brefs délais."/>
+	<entry name="Necrons/Orikan:Artefact#1" value="Quel trésor mathématique vais-je bien découvrir au sein de cette antique trouvaille ?"/>
+	<entry name="Necrons/Orikan:ArtefactCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Attack#0" value="Vous êtes une anomalie, et vous devez mourir pour ça."/>
+	<entry name="Necrons/Orikan:Attack#1" value="Le futur exige votre destruction."/>
+	<entry name="Necrons/Orikan:Attack#2" value="Les étoiles réclament votre annihilation."/>
+	<entry name="Necrons/Orikan:Attack#3" value="Je n'aurais qu'à imaginer que vous êtes Trazyn."/>
+	<entry name="Necrons/Orikan:Attack#4" value="Souffrez et craignez moi."/>
+	<entry name="Necrons/Orikan:AttackCount" value="5"/>
+
+	<entry name="Necrons/Orikan:Shaken#0" value="Les étoiles... ne sont plus alignées."/>
+	<entry name="Necrons/Orikan:Shaken#1" value="Je ne passerais pas un millénaire sous des décombres, pas encore !"/>
+	<entry name="Necrons/Orikan:ShakenCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Broken#0" value="J'ai échoué... la galaxie en payera le prix."/>
+	<entry name="Necrons/Orikan:Broken#1" value="Mes calculs ont été faussé, tout est perdu."/>
+	<entry name="Necrons/Orikan:BrokenCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Cover#0" value="Je vais me mettre à l'abri, le temps que mon necroderme puisse se réparer."/>
+	<entry name="Necrons/Orikan:CoverCount" value="1"/>
+
+	<entry name="Necrons/Orikan:Hurt#0" value="Adaptation du Chronosens..."/>
+	<entry name="Necrons/Orikan:Hurt#1" value="Necroderme en réparation."/>
+	<entry name="Necrons/Orikan:HurtCount" value="2"/>
+
+	<entry name="Necrons/Orikan:Idle#0" value="Visiter Solemnace, c'est surfait, et encore je pèse mes mots."/>
+	<entry name="Necrons/Orikan:Idle#1" value="Quand une anomalie vient gêner mes calculs, c'est que Trazyn n'est pas loin."/>
+	<entry name="Necrons/Orikan:Idle#2" value="Je vous ai battue, Vishani."/>
+	<entry name="Necrons/Orikan:Idle#3" value="Je suis le Chronomancien Suprême, le plus grand des Crypteks."/>
+	<entry name="Necrons/Orikan:Idle#4" value="Je suis le seul à avoir résolu les énigmes Vishaniques."/>
+	<entry name="Necrons/Orikan:Idle#5" value="Les Necrontyrs doivent devenir des êtres de lumière."/>
+	<entry name="Necrons/Orikan:Idle#6" value="Je suis Orikan, le devin."/>
+	<entry name="Necrons/Orikan:IdleCount" value="7"/>
+
+	<entry name="Necrons/Orikan:Victory#0" value="Vous ne pouvez défaire ce que j'ai écris."/>
+	<entry name="Necrons/Orikan:Victory#1" value="La victoire revient à ceux qui peuvent la saisir."/>
+	<entry name="Necrons/Orikan:Victory#2" value="J'ai eu des siècles pour préparer cette victoire."/>
+	<entry name="Necrons/Orikan:VictoryCount" value="3"/>
+</language>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<entry name="GaussDestructorHighPower" value="Gauss Destructor"/>
+	<entry name="GaussDestructorHighPowerFlavor" value="A Gauss Destructor is a type of heavy Gauss Weapon used by Necron Lokhust Heavy Destroyers. It is capable of decimating foes from afar. The weapon is more powerful if the unit has not moved."/>
+	<entry name="GaussDestructorLowPower" value="Gauss Destructor"/>
+	<entry name="GaussDestructorLowPowerFlavor" value="A Gauss Destructor is a type of heavy Gauss Weapon used by Necron Lokhust Heavy Destroyers. It is capable of decimating foes from afar. The weapon is less powerful if the unit has moved."/>
+	<entry name="GaussDestructorMax" value="Gauss Destructor overloaded"/>
+	<entry name="GaussDestructorMaxFlavor" value="<string name='Actions/Necrons/GaussDestructorMax'/>"/>
+	<entry name="GaussObliterator" value="Gauss Obliterator"/>
+	<entry name="GaussObliteratorFlavor" value="A Gauss Obliterator is a devastating Necron weapon fired exclusively by a Necron Doomsday Monolith. The Obliterator functions as a more powerful version of the Necron Monolith's Particle Whip. The immense energy demand of firing the Obliterator is fed by the Doomsday Monolith's Power Matrix."/>
+	<entry name="EmpathicObliterator" value="Empathic Obliterator"/>
+	<entry name="EmpathicObliteratorFlavor" value="The Empathic Obliterator is a specialized Necron staff carried only by the Necron Overlord Trazyn the Infinite. It is rumoured to contain the technology of the Old Ones. Should the Empathic Obliterator slay an enemy, a psionic shockwave ripples out from the body of the victim, striking down all nearby creatures of similar mind and purpose."/>
+	<entry name="StaffofTomorrow" value="Staff of the Tomorrow"/>
+	<entry name="StaffofTomorrowFlavor" value="This unique Staff of light is carried by the cryptek Orikan the Diviner. More powerful and lethal that is regular counterpart. The Staff of the Tomorrow can also penetrate all known forms of infantry armour, in a similar way to a Power Weapon, further enhancing its devastating effect."/>
+</language>

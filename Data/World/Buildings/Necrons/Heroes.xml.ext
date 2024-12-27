@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<building>
+	<actions>
+		<produceUnit unit="Necrons/HeavyDestroyerLord" requiredUpgrade="Necrons/HeavyDestroyer"/>
+		<produceUnit unit="Necrons/BloodCanoptek" requiredUpgrade="Necrons/CanoptekSpyder"/>
+		<produceUnit unit="Necrons/DoomsdayMonolith+" requiredUpgrade="Necrons/Monolith"/>
+		<produceUnit unit="Necrons/VoidDragon" requiredUpgrade="Necrons/TranscendentCtan"/>
+		<produceUnit unit="Necrons/Trazyn" requiredUpgrade="Necrons/Loyalty"/>
+		<produceUnit unit="Necrons/Orikan" requiredUpgrade="Necrons/Cryptek"/>
+	</actions>
+</building>

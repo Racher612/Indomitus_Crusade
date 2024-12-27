@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" icon="Actions/Necrons/Musée2">
+	<modifiers>
+		<modifier>
+			<effects>
+				<influence add="60"/>
+			</effects>
+		</modifier>
+		<modifier visible="0">
+			<conditions>
+				<unit>
+					<trait name="Necrons/Musée"/>
+				</unit>
+			</conditions>
+			<effects>
+				<influence add="15"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

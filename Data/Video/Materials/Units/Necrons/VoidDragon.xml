@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/Necrons/VoidDragonDiffuse"/>
+		<texture name="Units/Necrons/VoidDragonNormal"/>
+		<texture name="Units/Necrons/VoidDragonSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>
