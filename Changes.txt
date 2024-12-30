@@ -1,0 +1,7 @@
+На текущий момент скомпонованы в одном моде:
+1. Украден мод на много городов для космодесанта https://steamcommunity.com/sharedfiles/filedetails/?id=2164024484&searchtext=spacemarines+cities - с добавлением адекватного масштабирования цены на новый город
+2. Украден мод на почтенного дредноута https://steamcommunity.com/sharedfiles/filedetails/?id=2637857668&searchtext=dreadnought - добавлен + планируется перевод на русский
+3. добавлены новые герои из мода https://steamcommunity.com/sharedfiles/filedetails/?id=3036398141 и их русификация https://steamcommunity.com/sharedfiles/filedetails/?id=3330234907&searchtext=
+4. Каноптековым паукам добавлена возможность создавать некронские гробницы на клетках поблизости.
+5. Каноптековым паукам добавлена возможность строить пилоны
+6. Некронские гробницы теперь постоянно дают + 10% производства и + 20% науки

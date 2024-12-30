@@ -196,7 +196,7 @@
 		<!-- E make free-->
 		<genericUnitAbility name="SpaceMarines/AncientAdministrator"
 				icon="Actions/DeployFortressOfRedemption"
-				cooldown="12"
+				cooldown="10"
 				elite="1"
 				levelUpPriority="0.3"
 				rank="-1"

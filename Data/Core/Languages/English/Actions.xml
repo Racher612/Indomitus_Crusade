@@ -113,6 +113,8 @@
 	<entry name="Necrons/StarsAreRightFlavor" value="Wherever he goes, whenever he fights, there is always a chance that the stars will come into alignment and restore to Orikan a portion of ancient power. Whenever this happens, the body of Orikan coruscates with pent-up energy, and his prowess on the battlefield increases tenfold. However, such correct celestial alignments are often fleeting, and Orikan eventually powers down, sometimes mere minutes after he first received his initial empowerment."/>
 	<entry name="Necrons/SolarStrike" value="Solar Strike"/>
 	<entry name="Necrons/SolarStrikeDescription" value="Orikan becomes a beacon of pure light that blind and annihilate the area."/>
+	<entry name="Necrons/CreateTomb" value="Create Necron Tomb"/>
+	<entry name="Necrons/CreateTombDescription" value="Creates a Necron tomb on the current tile"/>
 	
 	<!-- Venerable Dreadnought mode -->
 	
